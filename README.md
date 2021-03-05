@@ -1,10 +1,15 @@
 # Kaa-IoT-Cloud-Platform
 Aimis to learn some of the fundamentals of the Kaa platform and discover how to:
 
-1. create a digital twin of your IoT device
-2. connect a client
-3. submit and fetch some device attributes
-4. view the digital twin of your device and its attributes in the Kaa UI
+Responsibilities:
+•	Configured and alert when Co2 level in Office is higher than normal level. Used Kaa Cloud Data Collection Feature integrated with Open Distro in such a way all data coming from endpoints gets automatically ingested in Elasticsearch Index attached to tenant.
+•	Open Distro is open-Source distribution of Elasticsearch with advanced security, SQL support, automated index management, deep Performance Analysis and more.
+•	Configured a Webhook destination for Open Distro that will be triggered to send email when certain telemetry value from endpoints exceeds certain threshold. 
+•	Created a Digital Twin of IoT device, device integration, MQTT topics/HTTPs Curl structure, device attributes, data collection, data extraction, hardware integration etc. 
+•	Connect a device one-way or two-way (mutual) MQTT over SSL/ TLS. Authentic device with X.509 certificate.
+•	User management by add new user, manage its permission, and restrict user access to applications, endpoints, dashboards. 
+•	Knowledge of microservice, microservice abstraction, inter service communication protocol (MQTT, Curl), JSON to encode, Docker images, Kubernetes (open source container orchestration system) for automation computer application deployment. 
+
 
 Let’s start by defining some of the essential Kaa terms. They will help you get a good grasp of the Kaa design logic and provide for smooth transition into the Kaa documentation, tutorials, UI, and API.
 
